@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>  
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Whomping Willow</title>
+    <link rel="stylesheet" href="cavestyle.css">
+    <script src="cavescript.js" defer></script>
+</head>
+<body>
+    
+    <div class="background"></div>
+    <img src="images/wizard_sprite copy.png" alt="bird-img" class="bird" id="bird-1">
+    <div id="message" class="message">
+       
+        <!-- <script>
+            var currentPrinting = 'You have entered the cave. Navigate through the obstacles to find Aragon\'s chamber. He is guarding Voldemort\'s last Horcrux. Hurry! Press \'Enter\' to continue!';
+            var iChar = 0;
+            var message = document.getElementById("message");
+            window.onload = function(){
+                type();
+            }
+            function type(){
+                if(iChar < currentPrinting.length){
+                message.insertAdjacentHTML("beforeend", currentPrinting.charAt(iChar));
+                iChar++;
+                setTimeout(type, 30);
+            }
+        }
+        </script> -->
+        <p>'You have entered the cave. Navigate through the obstacles to find Aragon's chamber. He is guarding Voldemort's last Horcrux. Hurry! </p>
+        <p>Press 'Enter' to continue!</p>
+       <!-- <p class="message"><span style="color: goldenrod">&uarr;</span> Up Arrow to Control</p>
+        -->
+    </div>
+    <div class="background">
+    <div class="score">
+        <span class="score_title"></span>
+        <span class="score_val"></span>
+    </div>
+    </div>
+</body>
+</html>

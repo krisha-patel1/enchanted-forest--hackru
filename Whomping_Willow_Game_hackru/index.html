@@ -9,51 +9,7 @@
     <script src="script.js" defer></script>
 </head>
 <body>
-    <!-- <canvas id="canvas" width="500" height="500"></canvas>
-    <script>
-         var canvas = document.getElementById('canvas');
-        var ctx = canvas.getContext("2d");
-        var bgImage = new Image();
-        bgImage.src= "forest.png";
-        
-            var bg1 = {
-                width:1026,
-                height:576,
-                x:0,
-                y:0,
-            }
-            var bg2 = {
-                width:1026,
-                height:576,
-                x:1026,
-                y:0,
-            }
-            var bg3 = {
-                width:1026,
-                height:576,
-                x:2052,
-                y:0,
-            }
-            var interval = setInterval(function() {
-                bg1.x -= 10;
-                bg2.x -= 10;
-                bg3.x -= 10;
-                if(bg1.x + bg1.width <= 0){
-                    bg1.x = bg3.x + bg3.width;
-                }
-                if(bg2.x+bg2.width <= 0){
-                    bg2.x = bg1.x + bg1.width;
-                }
-                if(bg3.x+bg3.width <= 0){
-                    bg3.x = bg2.x + bg2.width;
-                }
 
-                ctx.drawImage(bgImage, bg1.x, bg1.y);
-                ctx.drawImage(bgImage, bg2.x, bg2.y);
-                ctx.drawImage(bgImage, bg3.x, bg3.y);
-            }, 50);
-    </script> -->
-    
     <div class="background"></div>
     <img src="images/wizard_sprite.png" alt="bird-img" class="bird" id="bird-1">
     <div class="message">
