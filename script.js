@@ -73,7 +73,7 @@ function play(){
                         iChar = 0;
                         currentPrinting = 'You found the secret entrance to Aragon\'s Cave! Press \'Enter\' to defeat him and finish your Quest!';
                         type();
-                        //innerHTML = 'Congrats on defeating the Whomping Willow!' + ' Press Enter';
+                        location.replace("caveindex.html");
                         //go back to hallway
                         message.classList.add('messageStyle');
                         img.style.display = 'none';
