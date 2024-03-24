@@ -17,8 +17,8 @@ body{
 }
 
 .bird {
-	height: 140px;
-	width: 170px;
+	height: 100px;
+	width: 130px;
 	position: fixed;
 	top: 40vh;
 	left: 30vw;
@@ -30,7 +30,7 @@ body{
 	left: 100vw;
 	height: 70vh;
 	width: 6vw;
-	background:radial-gradient(rgb(129, 80, 40) 50%, rgb(110, 48, 19));
+	background:radial-gradient(rgb(108,78,71) 50%, rgb(68,61,78));
 	border: 2px solid black;
 }
 .message {
