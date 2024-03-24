@@ -62,7 +62,7 @@ function play(){
                     if(score_val.innerHTML < 5) {
                         message.innerHTML = "";
                         iChar = 0;
-                        currentPrinting = 'You were defeated by the Whomping Willow Press Enter To Try Again';
+                        currentPrinting = 'You did not make it through the Enchanted Forest :(       Press \'Enter\' to try again. ';
                         type();
                         //innerHTML = 'You were defeated by the Whomping Willow' + ' Press Enter To Try Again';
                         message.classList.add('messageStyle');
@@ -71,7 +71,7 @@ function play(){
                     } else{ 
                         message.innerHTML = "";
                         iChar = 0;
-                        currentPrinting = 'Congrats on defeating the Whomping Willow! Press Enter';
+                        currentPrinting = 'You found the secret entrance to Aragon\'s Cave! Press \'Enter\' to defeat him and finish your Quest!';
                         type();
                         //innerHTML = 'Congrats on defeating the Whomping Willow!' + ' Press Enter';
                         //go back to hallway
